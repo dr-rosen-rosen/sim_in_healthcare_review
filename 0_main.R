@@ -9,3 +9,5 @@ config <- config::get()
 source(here("1_funcs.R"), echo = TRUE)
 
 ref_df <- get_references()
+
+# pull out titles and abstracts (keep year of publicatin; screen by article type?)
